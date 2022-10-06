@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export default function TodoList() {
   const[todoName, setTodoName] = useState();
-
+  //dispatch
   const dispatch = useDispatch();
 
   const handleAddButtonClick = () => {
